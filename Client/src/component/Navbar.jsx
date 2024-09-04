@@ -9,9 +9,7 @@ import { BsSearchHeartFill } from "react-icons/bs";
 const Navbar = () => {
     return (
         <nav className=''>
-            <div className="uper-nav w-full h-20  flex justify-around ">
-
-
+            <div className="uper-nav w-full h-20 justify-around hidden sm:flex ">
                 <div className="left">
                     <a href=""><img src="https://darshantyres.com/wp-content/uploads/2019/04/200x80-B.png" alt="logo" /></a>
                 </div>
@@ -34,8 +32,8 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-            <div className="menu w-full bg-[#00aeef] flex flex-row justify-around">
-                <ul className='flex gap-2 cursor-pointer font-bold text-white text-[17px]'>
+            <div className="menu w-full bg-[#00aeef]  flex  sm:flex-row flex-col justify-around">
+                <ul className='flex gap-2 cursor-pointer flex-wrap sm:flex-nowrap  font-bold text-white text-[17px]'>
                     <li><Link to='/home'>Home</Link></li>
                     <li><Link>About us</Link></li>
                     <li><Link>Service</Link></li>

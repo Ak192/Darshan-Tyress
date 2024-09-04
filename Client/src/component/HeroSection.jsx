@@ -41,7 +41,7 @@ const HeroSection = () => {
                     return (
                     
                         <div key={image.id} className='w-full h-96 '>
-                          <img src={image.url} alt="auto play" className='w-full  '/>
+                          <img src={image.url} alt="auto play" className='w-full h-full '/>
                         </div>
                     )
                 })}

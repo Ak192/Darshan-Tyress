@@ -6,7 +6,7 @@ const Card = ({ id, title, url }) => {
      <>
       <div className='relative w-fit ' key={id}>
         <div className='absolute top-1/4 left-[37%]'>
-          <img src={`Assets/Service_icon/${url}`} alt={title} className='w-[90px] first-line' />
+          <img src={`Assets/Service_icon/${url}`} alt={title} className='w-[90px]' />
         </div>
         <img src="Assets/Service_icon/graph.png" alt="back-ground" className='' />
         <h1 className='font-bold text-center'>{title}</h1>
