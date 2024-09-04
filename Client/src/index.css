@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.slick-next{
+    right: 30px;
+}
+.slick-prev{
+    left: 30px;
+    background-color: white;
+}
+.slick-dots{
+    display: block;
+    opacity: 0;
+}
